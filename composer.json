@@ -1,0 +1,11 @@
+{
+    "require-dev": {
+        "kint-php/kint": "^3.0"
+    },
+    "require": {
+        "vlucas/phpdotenv": "^2.5",
+        "klein/klein": "dev-master"
+    },
+
+    "minimum-stability": "dev"
+}
