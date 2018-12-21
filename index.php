@@ -10,5 +10,3 @@ Essential::setEnv();
 Essential::startRouter();
 
 //Kint::dump($GLOBALS['auth']->register("test@test.com", "astrong@password", "astrong@password"));
-//Kint::dump(getenv('DB_HOST'));
-//Kint::dump(Essential::getConfig());
