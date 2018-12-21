@@ -1,3 +1,2 @@
-index: [/index, someClass.indexAction, GET]
-contact: [/contact, someClass.contactAction, GET]
-about: [/about, someClass.aboutAction, GET]
+home: [/, views/index, GET]
+Q1: [/q1, Queries.myq1query, GET]

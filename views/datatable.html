@@ -1,0 +1,37 @@
+<div id="uni_datatable_div">
+
+    <table id="uni_datatables" class="display" style="width:100%">
+        <thead>
+        <tr>
+
+            {% for key, item in headers %}
+             <th>{{item}}</th>
+            {% endfor %}
+
+        </tr>
+        </thead>
+
+        {% for key, item in data %}
+
+        <tr>
+
+            {% for key_d, item_d in item %}
+            <td>{{item_d}}</td>
+            {% endfor %}
+
+        </tr>
+
+        {% endfor %}
+
+
+        <tfoot>
+        <tr>
+            {% for key, item in headers %}
+            <th>{{item}}</th>
+            {% endfor %}
+        </tr>
+        </tfoot>
+    </table>
+
+
+</div>

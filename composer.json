@@ -4,7 +4,10 @@
     },
     "require": {
         "vlucas/phpdotenv": "^2.5",
-        "klein/klein": "dev-master"
+        "klein/klein": "dev-master",
+        "symfony/templating": "^4.3@dev",
+        "twig/twig": "2.x-dev",
+        "phpauth/phpauth": "dev-master"
     },
 
     "minimum-stability": "dev"

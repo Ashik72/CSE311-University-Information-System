@@ -1,0 +1,54 @@
+<!-- Left side column. contains the logo and sidebar -->
+<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+        <!-- Sidebar user panel -->
+        <!-- search form -->
+        <form action="#" method="get" class="sidebar-form">
+            <div class="input-group">
+                <input type="text" name="q" class="form-control" placeholder="Search...">
+                <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+        </form>
+        <!-- /.search form -->
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <ul class="sidebar-menu" data-widget="tree">
+            <li class="header">MAIN NAVIGATION</li>
+
+
+            {% for name, route in routes %}
+
+            <li {% if name == this_route %} class="active" {% endif %}>
+                <a href="{{route.0}}">
+                    <span>{{name}}</span>
+                </a>
+            </li>
+           abc {{name}}
+
+            {% endfor %}
+
+        </ul>
+
+    </section>
+    <!-- /.sidebar -->
+    def {{this_route}}
+
+</aside>
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            {{this_route}}
+        </h1>
+
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+    {{parsed_data | raw}}
