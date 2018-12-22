@@ -3,3 +3,9 @@
     padding: 10px;
     text-align: center;
 }
+
+.q_title {
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
