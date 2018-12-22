@@ -2,7 +2,7 @@
 
 ** Run composer install OR replace files of vendor folder using vendor.zip
 
-** Make sure you are running this script inside a top level domain or use a virtual host. 
+** Run this script inside a top level domain or use a virtual host. 
 
 1. Make sure your php got mod_rewrite enabled. You can check this easily from phpinfo(). [Note - not tested with nginx yet!]
 
@@ -32,6 +32,6 @@
 
 1. Klein.php (https://github.com/klein/klein.php) for routing.
 2. PHPAuth (https://github.com/PHPAuth/PHPAuth) for user authentication.
-3. Kint-php (https://github.com/kint-php/kint) foe debugging.
+3. Kint-php (https://github.com/kint-php/kint) for debugging.
 4. phpdotenv (https://github.com/vlucas/phpdotenv) for environment variables support.
 5. Twig (https://twig.symfony.com/) as templating engine.
