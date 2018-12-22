@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>student</title>
+<div class='text-center'>
+<h1>Student Application Form</h1>
+</div>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+ integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+<form action="info.php" method="post">
+<div class="form-row">
+   <div class="col-md-4">
+First name:<input type="text" class="form-control" id="first_name" name="fname">
+</div>
+<div class="col-md-4">
+Middle name:<input class="form-control" id="middle_name" type="text" name="mname">
+</div>
+<div class="col-md-4">
+Last name:<input class="form-control" id="last_name" type="text" name="lname">
+</div>
+</div>
+<div class="form-row">
+   <div class="col-md-4">
+Father name:<input class="form-control" type="text" name="bap">
+</div>
+   <div class="col-md-4">
+Mother name:<input class="form-control" type="text" name="ma">
+</div>
+</div>
+<br/>
+<p>Present Address:</p>
+<div class="form-row">
+   <div class="col-md-4">
+House no:<input class="form-control" type="text" name="hno">
+</div>
+   <div class="col-md-4">
+Location:<input class="form-control" type="text" name="ln">
+</div>
+<div class="col-md-4">
+Street:<input class="form-control" type="text" name="srt">
+</div>
+<div class="col-md-4">
+Thana:<input class="form-control" type="text" name="tn">
+</div>
+<div class="col-md-4">
+District:<input class="form-control" type="text" name="dt">
+</div>
+<div class="col-md-4">
+Post code:<input class="form-control" type="text" name="pt">
+</div>
+</div>
+<br/>
+<p>Permanent Address:</p>
+<div class="form-row">
+<div class="col-md-4">
+House no:<input class="form-control" type="text" name="ab">
+</div>
+<div class="col-md-4">
+Location:<input class="form-control" type="text" name="bc">
+</div>
+<div class="col-md-4">
+Street:<input class="form-control" type="text" name="cd">
+</div>
+<div class="col-md-4">
+Thana:<input class="form-control" type="text" name="de">
+</div>
+<div class="col-md-4">
+District:<input  class="form-control"type="text" name="ef">
+</div>
+<div class="col-md-4">
+Post code:<input class="form-control" type="text" name="fg">
+</div>
+</div>
+<br/>
+Date of birth:<input class="form-control" type="date" name="dob">
+<br/>
+
+<div class="py-3">
+<table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">Name of degree</th>
+                        <th scope="col">Institute</th>
+                        <th scope="col">Board</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="nd1"></td>
+                        <td><input type="text" name="ins1"></td>
+                        <td><input type="text" name="brd1"></td>
+                        <td><input type="text" name="yr1"></td>
+						<td><input type="text" name="rslt1"></td> </tr>
+						<tr>
+                        <td><input type="text" name="nd2"> </td>
+                        <td><input type="text" name="ins2"> </td>
+                        <td><input type="text" name="brd2"> </td>
+						<td><input type="text" name="yr2"> </td>
+						<td><input type="text" name="rslt2"> </td> </tr>
+						<tr>
+                        <td><input type="text" name="nd3"> </td>
+                        <td><input type="text" name="ins3"> </td>
+                        <td><input type="text" name="brd3"> </td>
+						<td><input type="text" name="yr3"> </td>
+						<td><input type="text" name="rslt3"></td> </tr>
+						</tbody>
+						</table>
+						</div>
+<div class='text-center'>
+<button type="submit" class="btn btn-primary"><input type="submit" value="insert"></button>
+</div>
+
+</form>
+</div>
+</div>
+</div>
+</body>
+
+</html>

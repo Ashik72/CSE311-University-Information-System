@@ -20,7 +20,6 @@ class Essential {
         $GLOBALS['error'] = [];
         $auth = self::makeAuth();
         $GLOBALS['auth'] = $auth;
-        //Kint::dump($auth->register("ashik@noksa.net", "noksaweb@2", "noksaweb@2"));
 
         if (!$auth->isLogged()) {
 
