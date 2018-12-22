@@ -26,3 +26,12 @@
 
 10. To add a table with your query and data, follow the example on class Queries, method myq1query. 
 
+
+
+##This custom made framework uses -
+
+1. Klein.php (https://github.com/klein/klein.php) for routing.
+2. PHPAuth (https://github.com/PHPAuth/PHPAuth) for user authentication.
+3. Kint-php (https://github.com/kint-php/kint) foe debugging.
+4. phpdotenv (https://github.com/vlucas/phpdotenv) for environment variables support.
+5. Twig (https://twig.symfony.com/) as templating engine.
