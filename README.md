@@ -1,5 +1,9 @@
 # CSE311 University Information System
 
+** Run composer install OR replace files of vendor folder using vendor.zip
+
+** Make sure you are running this script inside a top level domain or use a virtual host. 
+
 1. Make sure your php got mod_rewrite enabled. You can check this easily from phpinfo(). [Note - not tested with nginx yet!]
 
 2. Import auth_schema.sql in your database.
